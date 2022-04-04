@@ -10,7 +10,7 @@ function Jumbotron() {
                 information.
             </p>
             <p>
-                <Button bsStyle="primary">Learn more</Button>
+                <Button variant="primary">Learn more</Button>
             </p>
         </div>
     );
