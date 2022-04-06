@@ -20,8 +20,8 @@ function App() {
                     <Jumbotron />
                     <Product data={shoes} />
                 </Route>
-                <Route path="/detail">
-                    <Detail />
+                <Route path="/detail/:id">
+                    <Detail data={shoes} />
                 </Route>
                 <Route path="/:id">
                     <div>아무거나 보여주셈</div>
