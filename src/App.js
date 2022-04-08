@@ -23,9 +23,6 @@ function App() {
                 <Route path="/detail/:id">
                     <Detail data={shoes} />
                 </Route>
-                <Route path="/:id">
-                    <div>아무거나 보여주셈</div>
-                </Route>
 
                 {/* 이런식으로 컴포넌트 전달 가능 */}
                 {/* <Route path={'/패스'} component={modal}></Route> */}
